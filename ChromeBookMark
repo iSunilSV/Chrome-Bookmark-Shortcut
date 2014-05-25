@@ -1,0 +1,30 @@
+javascript:
+var siteName = [];
+var siteUrl = [];
+
+
+function addToSiteList(i_siteName, i_siteURL)
+{
+	siteName.push(i_siteName);
+	siteUrl.push(i_siteURL);
+}
+
+function sitePrompt()
+{
+ var siteList = "\n";
+ for (var i = 0; i < siteName.length; i++) 
+ { 
+    siteList = siteList + i + ". " + siteName[i] + "\n"
+ }
+return siteList;
+}
+
+//ADD YOUR SITES HERE
+addToSiteList('GMail','http://www.gmail.com');
+addToSiteList('Facebook','http://www.facebook.com');
+addToSiteList('Twitter','http://www.twitter.com');
+
+var ss = window.prompt(sitePrompt());
+
+window.location.href = siteUrl[ss];
+
