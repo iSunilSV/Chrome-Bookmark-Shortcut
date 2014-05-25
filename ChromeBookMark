@@ -28,3 +28,5 @@ var ss = window.prompt(sitePrompt());
 
 window.location.href = siteUrl[ss];
 
+/* Created by Sunil Kumar SV */
+/* http://www.about.me/sunil333 */
