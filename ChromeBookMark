@@ -24,7 +24,7 @@ addToSiteList('GMail','http://www.gmail.com');
 addToSiteList('Facebook','http://www.facebook.com');
 addToSiteList('Twitter','http://www.twitter.com');
 
-var ss = window.prompt(sitePrompt());
+var ss = window.prompt(sitePrompt(),'Enter URL number to open');
 
 window.location.href = siteUrl[ss];
 
