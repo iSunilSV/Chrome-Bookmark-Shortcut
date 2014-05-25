@@ -19,7 +19,7 @@ function sitePrompt()
 return siteList;
 }
 
-//ADD YOUR SITES HERE
+/* ADD YOUR SITES HERE */
 addToSiteList('GMail','http://www.gmail.com');
 addToSiteList('Facebook','http://www.facebook.com');
 addToSiteList('Twitter','http://www.twitter.com');
