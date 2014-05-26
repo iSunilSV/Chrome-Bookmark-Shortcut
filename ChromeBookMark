@@ -2,7 +2,6 @@ javascript:
 var siteName = [];
 var siteUrl = [];
 
-
 function addToSiteList(i_siteName, i_siteURL)
 {
 	siteName.push(i_siteName);
@@ -11,7 +10,7 @@ function addToSiteList(i_siteName, i_siteURL)
 
 function sitePrompt()
 {
- var siteList = "\n";
+ var siteList = "Welcome to Chrome Bookmark Shortcut tool\n";
  for (var i = 0; i < siteName.length; i++) 
  { 
     siteList = siteList + i + ". " + siteName[i] + "\n"
@@ -19,15 +18,21 @@ function sitePrompt()
 return siteList;
 }
 
-/* ADD YOUR SITES HERE */
+/* Example */
+/*
+addToSiteList('<Website Name>', '<URL>');
+*/
+/* --------------------------------- */
+
+/* ADD YOUR SITES HERE. 3 Sites have been added by defualt. You can edit/delete/add as per your widh */
 addToSiteList('GMail','http://www.gmail.com');
 addToSiteList('Facebook','http://www.facebook.com');
 addToSiteList('Twitter','http://www.twitter.com');
 
-var ss = window.prompt(sitePrompt(),'Enter URL number to open');
-if(ss != null)
+var siteNo = window.prompt(sitePrompt(),'Enter URL number to open');
+if(siteNo != null)
 {
-window.location.href = siteUrl[ss];
+   window.location.href = siteUrl[siteNo];
 }
 /* Created by Sunil Kumar SV */
 /* http://www.about.me/sunil333 */
