@@ -25,8 +25,9 @@ addToSiteList('Facebook','http://www.facebook.com');
 addToSiteList('Twitter','http://www.twitter.com');
 
 var ss = window.prompt(sitePrompt(),'Enter URL number to open');
-
+if(ss != null)
+{
 window.location.href = siteUrl[ss];
-
+}
 /* Created by Sunil Kumar SV */
 /* http://www.about.me/sunil333 */
