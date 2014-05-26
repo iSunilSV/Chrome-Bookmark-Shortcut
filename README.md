@@ -15,7 +15,7 @@ Steps ::<br>
 CONFIGURATION COMPLETE!!! <br>
 
 How To Use ::<br>
-1. Press 'F6' 2 times (This will highlight the above bookmark) <br>
+1. Press 'F6' (This will highlight the above bookmark) <br>
 2. Press 'Enter' <br>
 3. Now, enter the number of the URL you want to open and click on 'Enter' <br>
 
